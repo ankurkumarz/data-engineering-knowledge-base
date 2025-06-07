@@ -1,0 +1,40 @@
+site_name: 'Data Engineering Knowledge Base'
+site_description: 'A repository to consolidate knowledge articles, patterns, white papers, relevant articles supporting Data Engineering.'
+site_author: 'Ankur Kumar'
+docs_dir: 'docs'
+site_dir: 'html'
+theme:
+  name: gitbook 
+  palette:
+    primary: indigo
+  features:
+    - navigation.instant
+    - search.highlight
+
+nav:
+  - Home: 'index.md'
+  - Foundations: 'Foundations/Readme.md'
+  - Data Platforms: 'DataPlatforms/README.md'
+  - Design Patterns: 'DesignPatterns/Readme.md'
+  - Reference Architecture: 'ReferenceArchitecture/README.md'
+  - Best Practices: 'BestPractices/README.md'
+  - Dev/Coding Agents: 'DevAgents/Readme.md'
+  - Standards: 'Standards/README.md'
+  - Research: 'Research/README.md'
+  - Benchmarks: 'Benchmarks/Readme.md'
+  - Observability: 'Observability/Reafme.md'
+  - Newsletter & Blogs: 'NewsletterBlogs/README.md'
+  - Courses: 'Courses/README.md'
+plugins:
+  - search
+  - mermaid2
+  - markdown-filter:
+      levels: [1, 2]
+  - macros
+  - awesome-pages
+  - glightbox
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
