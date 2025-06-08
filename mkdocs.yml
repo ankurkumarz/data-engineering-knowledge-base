@@ -16,7 +16,7 @@ nav:
   - Foundations: 'Foundations/Readme.md'
   - Lakehouse: 'Lakehouse/README.md'
   - Data Platforms: 'DataPlatforms/README.md'
-  - DataIntegration: 'DataIntegration/README.md'
+  - Data Integration: 'DataIntegration/README.md'
   - Design Patterns: 'DesignPatterns/Readme.md'
   - Reference Architecture: 'ReferenceArchitecture/README.md'
   - Best Practices: 'BestPractices/README.md'
