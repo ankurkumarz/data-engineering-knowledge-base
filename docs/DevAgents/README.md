@@ -9,6 +9,10 @@
 
 ## Databricks AI
 
+- [Data Intelligence Platform](https://www.databricks.com/blog/what-is-a-data-intelligence-platform)
+
+![DIP](https://www.databricks.com/sites/default/files/styles/max_1000x1000/public/2025-04/what-is-a-data-intelligence-platform-2x.png)
+
 - [Agent Bricks](https://docs.databricks.com/aws/en/generative-ai/agent-bricks/): Auto-optimizing agents for domain tasks (Agent SDK + MCP
 - [Lakehouse AI](https://www.databricks.com/blog/lakehouse-ai): AI platform including GenAI Models hosting, datasets, governance, and more.
 
