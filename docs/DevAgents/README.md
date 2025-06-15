@@ -9,4 +9,7 @@
 
 ## Databricks AI
 
--  [Agent Bricks](https://docs.databricks.com/aws/en/generative-ai/agent-bricks/): Auto-optimizing agents for domain tasks (Agent SDK + MCP
+- [Agent Bricks](https://docs.databricks.com/aws/en/generative-ai/agent-bricks/): Auto-optimizing agents for domain tasks (Agent SDK + MCP
+- [Lakehouse AI](https://www.databricks.com/blog/lakehouse-ai): AI platform including GenAI Models hosting, datasets, governance, and more.
+
+![Lakehouse AI](https://www.databricks.com/sites/default/files/inline-images/image1_3.png)
