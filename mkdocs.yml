@@ -56,7 +56,7 @@ nav:
       - 5.3 Benchmarks: Benchmarks/index.md
       - 5.4 AI for Data Engineering:
           - Section Index: DevAgents/index.md
-          - Snowflake AI: DevAgents/snowflake-ai.md
+          - AI Platform Capabilities: DevAgents/snowflake-ai.md
       - 5.5 Learning Resources: LearningResources/index.md
   - Wiki Operations:
       - Change Log: log.md
