@@ -1,10 +1,10 @@
-site_name: 'Data Engineering Knowledge Base'
-site_description: 'A repository to consolidate knowledge articles, patterns, white papers, relevant articles supporting Data Engineering.'
-site_author: 'Ankur Kumar'
-docs_dir: 'docs'
-site_dir: 'html'
+site_name: Data Engineering Knowledge Base
+site_description: A persistent source-driven wiki for modern data engineering.
+site_author: Ankur Kumar
+docs_dir: docs
+site_dir: html
 theme:
-  name: gitbook 
+  name: gitbook
   palette:
     primary: indigo
   features:
@@ -12,28 +12,57 @@ theme:
     - search.highlight
 
 nav:
-  - Home: 'index.md'
-  - Foundations: 'Foundations/Readme.md'
-  - Lakehouse: 'Lakehouse/README.md'
-  - Data Platforms: 'DataPlatforms/README.md'
-  - Data Integration: 'DataIntegration/README.md'
-  - Design Patterns: 'DesignPatterns/Readme.md'
-  - Reference Architecture: 'ReferenceArchitecture/README.md'
-  - Best Practices: 'BestPractices/README.md'
-  - Dev/Coding Agents: 'DevAgents/Readme.md'
-  - Standards: 'Standards/README.md'
-  - Research: 'Research/README.md'
-  - Benchmarks: 'Benchmarks/Readme.md'
-  - Observability: 'Observability/Reafme.md'
-  - Newsletter & Blogs: 'NewsletterBlogs/README.md'
-  - Courses: 'Courses/README.md'
+  - Home: index.md
+  - 1. Foundations and Architecture:
+      - 1.1 Foundations: Foundations/index.md
+      - 1.2 Architecture: Architecture/index.md
+      - 1.3 Data Modeling: DataModeling/index.md
+      - 1.4 Design Patterns:
+          - Section Index: DesignPatterns/index.md
+          - Patterns Overview: DesignPatterns/patterns-overview.md
+      - 1.5 Reference Architectures:
+          - Section Index: ReferenceArchitecture/index.md
+          - Open Source Data Stack: ReferenceArchitecture/open-source-data-stack.md
+  - 2. Storage and Processing:
+      - 2.1 Storage and Table Formats: StorageFormats/index.md
+      - 2.2 Lakehouse:
+          - Section Index: Lakehouse/index.md
+          - Landscape: Lakehouse/landscape.md
+      - 2.3 Data Warehousing and OLAP: DataWarehousing/index.md
+      - 2.4 Batch Processing: BatchProcessing/index.md
+      - 2.5 Stream Processing: StreamProcessing/index.md
+  - 3. Movement and Consumption:
+      - 3.1 Data Integration and Ingestion:
+          - Section Index: DataIntegration/index.md
+          - Landscape: DataIntegration/landscape.md
+      - 3.2 Orchestration: Orchestration/index.md
+      - 3.3 Analytics and Serving:
+          - Section Index: AnalyticsServing/index.md
+          - Evaluating a Semantic Layer: AnalyticsServing/semantic-layer-evaluation.md
+      - 3.4 Data Platforms:
+          - Section Index: DataPlatforms/index.md
+          - Platforms Overview: DataPlatforms/platforms.md
+  - 4. Trust and Operations:
+      - 4.1 Data Quality and Contracts: DataQuality/index.md
+      - 4.2 Metadata, Catalog, and Lineage: MetadataCatalog/index.md
+      - 4.3 Governance, Privacy, and Security: GovernanceSecurity/index.md
+      - 4.4 Observability: Observability/index.md
+      - 4.5 DataOps and Delivery: DataOps/index.md
+      - 4.6 Performance and Cost: PerformanceCost/index.md
+      - 4.7 Production Best Practices: BestPractices/index.md
+  - 5. Ecosystem and Evidence:
+      - 5.1 Standards: Standards/index.md
+      - 5.2 Research: Research/index.md
+      - 5.3 Benchmarks: Benchmarks/index.md
+      - 5.4 AI for Data Engineering:
+          - Section Index: DevAgents/index.md
+          - Snowflake AI: DevAgents/snowflake-ai.md
+      - 5.5 Learning Resources: LearningResources/index.md
+  - Wiki Operations:
+      - Change Log: log.md
+      - Ingest Log: ingest-log.md
 plugins:
   - search
-  - mermaid2
-  - markdown-filter:
-      levels: [1, 2]
-  - macros
-  - awesome-pages
   - glightbox
 
 markdown_extensions:

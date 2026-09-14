@@ -1,7 +1,7 @@
-mkdocs-gitbook
+mkdocs
 mkdocs-mermaid2-plugin
+mkdocs-markdown-filter
 mkdocs-macros-plugin
 mkdocs-awesome-pages-plugin
-mkdocs-markdown-filter
 mkdocs-glightbox
 PyYAML

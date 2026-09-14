@@ -1,0 +1,13 @@
+{
+  "sources": {
+    "raw/The-Ultimate-Guide-to-Choosing-a-Semantic-Layer.pdf": {
+      "pages": [
+        "docs/AnalyticsServing/index.md",
+        "docs/AnalyticsServing/semantic-layer-evaluation.md"
+      ],
+      "processed_at": "2026-09-14T15:31:33Z",
+      "sha256": "172b507703191eeb015b0ecabe83e25f9a17322af5af63a5814f76e40a8317ba"
+    }
+  },
+  "version": 1
+}
