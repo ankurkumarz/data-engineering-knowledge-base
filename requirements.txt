@@ -5,3 +5,4 @@ mkdocs-macros-plugin
 mkdocs-awesome-pages-plugin
 mkdocs-glightbox
 PyYAML
+mkdocs-material

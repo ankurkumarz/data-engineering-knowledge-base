@@ -4,7 +4,17 @@ okf_version: "0.1"
 
 # Data Engineering Knowledge Base
 
+<img src="./assets/images/data-engg-header.png" alt="Data Engineering" height="300">
+
 A persistent, source-driven wiki for designing, building, operating, and governing modern data systems. Raw documents are synthesized into durable topic pages so each ingest strengthens the existing body of knowledge instead of creating an isolated summary.
+
+<p align="center">
+<a href="https://data-engineering.readthedocs.io/"><img src="https://img.shields.io/badge/data-enggineering@readthedocs.io-blue"></a>
+</p>
+
+<p align="center">
+<a href="https://opensource.org/licenses/Apache"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
+</p>
 
 ## Knowledge map
 
@@ -57,3 +67,26 @@ A persistent, source-driven wiki for designing, building, operating, and governi
 4. `.ingest-state.json` records the source hash and affected pages, allowing changed and unprocessed files to be detected reliably.
 
 Run `python3 scripts/raw-status.py` at any time to see the raw-source queue.
+
+## Disclaimer
+
+*This knowledge base includes images, diagrams, and visual references sourced or adapted from external articles, research papers, vendor documentation, and publicly available materials. All such visuals remain the property of their respective owners and are used for educational, reference, and illustrative purposes only. Where applicable, original sources are cited or referenced, and no claim of ownership is made over third-party content.*
+
+## License
+
+This project is licensed under the Apache License 2.0.
+
+## Acknowledgments
+
+This knowledge base builds upon the incredible work of the open source community, academic researchers, and industry practitioners who continue to advance the field of agentic AI. Special thanks to all contributors and the organizations that have shared their research and insights publicly.
+
+## Contributor
+
+**Ankur Kumar** has contributed to building this knowledge base.
+
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ankurkumarz)
+
+
+---
+
+**GitHub Repository**: [https://github.com/ankurkumarz/data-engineering-knowledge-base](https://github.com/ankurkumarz/agentic-ai-knowledge-base/)
