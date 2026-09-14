@@ -83,7 +83,6 @@ nav:
 plugins:
   - search
   - glightbox
-  - macros
   - mermaid2
 
 markdown_extensions:
